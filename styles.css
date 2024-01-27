@@ -1,0 +1,239 @@
+* {
+    font-family:  overpass;
+}
+
+body{
+    background-color: #131518;
+    color: white;
+}
+
+/* Rating State Styles */
+
+.card__rating__state {
+    width: 327px;
+    height: 360px;
+    background: var(--black-gradient, radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%));
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+
+.card__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:space-evenly;
+    padding: 24px 24px 24px 24px;
+}
+.card__circle__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card__star-logo {
+
+}
+
+.card__title {
+    color: var(--Pure-White, #FFF);
+    font-family: Overpass;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card__information {
+    color: var(--Light-Grey, #969FAD);
+    font-family: Overpass;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+}
+
+.card__rating-buttons{
+
+}
+
+.card__buttons, .card__circle__logo{
+    width: 42px;
+    height: 42px;
+    background-color: #262E38;
+    border-radius: 24px;
+    border:none;
+    padding:0;
+}
+
+.card__buttons {
+     margin-left: 12px;
+     color: var(--Medium-Gray, #7C8798);
+     font-family: Overpass;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 700;
+}
+
+.outer{
+    margin-left: 0px;
+}
+
+.button__number {
+    color: var(--Medium-Gray, #7C8798);
+    font-family: Overpass;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+.card__submit__button{
+    color: var(--Pure-White, #FFF);
+    background-color:#FC7614 ;
+    font-family: Overpass;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.867px;
+    border-radius: 22.5px;
+    width: 279px;
+    height: 45px;
+    border: none;;
+}
+
+/* Thank You State Styles */
+
+.card__thankyou__state {
+    width: 327px;
+    height: 360px;
+    background: var(--black-gradient, radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%));
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+
+.card__container__thankyou__state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 24px 24px 24px 24px;
+}
+
+.card__thankyou__logo{
+    margin-top: 14px;
+}
+.card__thankyou__rating-selection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 168px;
+    height: 32px;
+    border-radius: 22.5px;
+    background-color: #262E38;
+}
+
+.thankyou__text{
+    color: #FC7614;
+    font-weight: 400;
+    text-align: center;
+    font-size: 14px;
+}
+
+.card__thankyou__message-title{
+    color: var(--Pure-White, #FFF);
+    text-align: center;
+    font-family: Overpass;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+    
+.card__thankyou__message-description{
+    color: var(--Light-Grey, #969FAD);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px; 
+}
+
+.active{
+    display: none;
+}
+
+.selected{
+    background-color: #FC7614;
+}
+
+/* Desktop Style */
+
+@media (min-width:48rem) {
+
+.card__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:space-evenly;
+    padding: 10px 32px 32px 32px;
+}
+.card__thankyou__state, .card__rating__state {
+    margin-top:100px;
+    width: 412px;
+    height: 416px;
+}
+
+.card__title{
+    font-size: 28px;
+    font-weight:700;
+    margin-top:24px;
+}
+
+.card__information {
+    margin-top:24px;
+    font-size: 15px;
+}
+
+.card__buttons, .card__circle__logo{
+    margin-top:24px;
+    font-size:16px;
+    width: 51px;
+    height: 51px;
+}
+
+.card__submit__button{
+    margin-top:24px;
+    font-size: 15px;
+    width: 341px;
+    height: 45px;
+}
+
+.card__buttons {
+    margin-left: 18px;
+    padding:5px 5px 5px 5px;
+}
+
+.card__buttons:hover  {
+    background-color:#7C8798;
+    transition: ease-in-out 400ms;
+    cursor: pointer;
+    color:white;
+
+}
+
+.button__number:hover  {
+    color:white;
+    transition: ease-in-out 400ms;
+    cursor: pointer; 
+}
+}
+
+.outer{
+    margin-left: 0px;
+}
+

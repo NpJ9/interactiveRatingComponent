@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="script" href="script.js">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <script></script>
+</head>
+<body>
+
+<!-- Rating state start -->
+
+  <section class="card__rating__state" id="rating">
+    <div class = "card__container">
+        <div class="card__circle__logo">
+          <img class ="card__star-logo" src="/images/icon-star.svg"></div>
+              <div class ="card__title"> How did we do?</div>
+                  <div class="card__information">  Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</div>
+                      <div class="card__rating-buttons">
+                        <button class="card__buttons outer" id="1">1</button>
+                        <button class="card__buttons" id="2">2</button>
+                        <button class="card__buttons" id="3">3</button>
+                        <button class="card__buttons" id="4">4</button>
+                        <button class="card__buttons" id="5">5</button>
+                      </div>
+                <button class ="card__submit__button" id ="change__states">SUBMIT</div>
+    </div>
+  </section>
+
+  <!-- Rating state end -->
+
+  <section class="card__thankyou__state active" id="thankyou">
+      <div class = "card__container__thankyou__state">
+        <div class="card__thankyou__logo"><img src="images/illustration-thank-you.svg"></div>
+            <div class="card__thankyou__rating-selection">
+                  <div class="thankyou__text">You selected <span id="rating_chosen"></span> out of 5</div>
+            </div>
+                      <div class="card__thankyou__message-title">Thank you!</div>
+                      <div class="card__thankyou__message-description">We appreciate you taking the time to give a rating. If you ever need more support, 
+                        don’t hesitate to get in touch!</div>
+    </section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
